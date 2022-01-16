@@ -1,0 +1,43 @@
+.container {
+	background-image: url("https://i.pinimg.com/564x/a5/20/0a/a5200a352f829db148025a455b6fecc7.jpg");
+	background-position: 50% 50%;
+	background-size: 100%;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	border: solid 5px #D4A5FF;
+	border-radius: 150px;
+	margin: 30px;
+	width: 50%;
+	height: 50%;
+}
+
+/* Header/Blog Title */
+.page-title {
+	margin-top: 21px;
+  padding: 21px;
+	
+	font-family: Arial;
+  font-size: 40px;
+  color: #5700A8;
+  text-align: center;
+	background-color: rgba(212, 165, 255,0.5);
+}
+
+.header-blog {
+  margin: 0;
+}
+
+.contact-link {
+	transition: all linear 0.2s;
+}
+.contact-link:hover {
+	transform: translateY(-10px);
+}
+
